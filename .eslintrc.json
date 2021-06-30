@@ -1,0 +1,23 @@
+{
+	"extends": [
+        "airbnb-base",
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2019
+	},
+	"rules": {
+        "comma-dangle" : [1, "never"],
+        "no-console": 0,
+        "no-new": 0,
+        "template-curly-spacing": ["error", "always"],
+        "consistent-return": "off",
+        "import/prefer-default-export": "off",
+        "linebreak-style": ["error", "windows"]
+	}
+}
